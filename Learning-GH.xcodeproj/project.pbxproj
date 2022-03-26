@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F353FCEE27EF5D3B00877098 /* Learning-GH in Resources */ = {isa = PBXBuildFile; fileRef = F353FCED27EF5D3B00877098 /* Learning-GH */; };
+		F353FCF027EF5DE500877098 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353FCEF27EF5DE500877098 /* MyModel.swift */; };
 		F39C011A27EE9B050012A9E4 /* Learning_GHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C011927EE9B050012A9E4 /* Learning_GHApp.swift */; };
 		F39C011C27EE9B050012A9E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C011B27EE9B050012A9E4 /* ContentView.swift */; };
 		F39C011E27EE9B080012A9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39C011D27EE9B080012A9E4 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F353FCED27EF5D3B00877098 /* Learning-GH */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Learning-GH"; sourceTree = "<group>"; };
+		F353FCEF27EF5DE500877098 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 		F39C011627EE9B050012A9E4 /* Learning-GH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-GH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39C011927EE9B050012A9E4 /* Learning_GHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_GHApp.swift; sourceTree = "<group>"; };
 		F39C011B27EE9B050012A9E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +55,10 @@
 		F39C011827EE9B050012A9E4 /* Learning-GH */ = {
 			isa = PBXGroup;
 			children = (
+				F353FCED27EF5D3B00877098 /* Learning-GH */,
 				F39C011927EE9B050012A9E4 /* Learning_GHApp.swift */,
 				F39C011B27EE9B050012A9E4 /* ContentView.swift */,
+				F353FCEF27EF5DE500877098 /* MyModel.swift */,
 				F39C011D27EE9B080012A9E4 /* Assets.xcassets */,
 				F39C011F27EE9B080012A9E4 /* Preview Content */,
 			);
@@ -127,6 +133,7 @@
 			files = (
 				F39C012127EE9B080012A9E4 /* Preview Assets.xcassets in Resources */,
 				F39C011E27EE9B080012A9E4 /* Assets.xcassets in Resources */,
+				F353FCEE27EF5D3B00877098 /* Learning-GH in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F39C011C27EE9B050012A9E4 /* ContentView.swift in Sources */,
+				F353FCF027EF5DE500877098 /* MyModel.swift in Sources */,
 				F39C011A27EE9B050012A9E4 /* Learning_GHApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
